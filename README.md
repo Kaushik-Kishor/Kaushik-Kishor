@@ -79,7 +79,7 @@
 
 ---
 
-#### 🕸️ ChainBreaker — Graph-Based Cyber IDS *(in progress)*
+#### 🕸️ [ChainBreaker — Graph-Based Cyber IDS *(in progress)*](https://github.com/Kaushik-Kishor/chainbreaker)
 
 > Real-time network intrusion detection: Kafka ingestion → Spark processing → Neo4j attack graph → RL-based automated response. Modeled on MITRE ATT&CK kill chain stages.
 
