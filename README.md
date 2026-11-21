@@ -16,7 +16,7 @@
 ### About me
 
 - 🎓 &nbsp; B.E. CSE (Data Science) at Dayananda Sagar College of Engineering, Bengaluru — SGPA 8.73/10
-- ⚙️ &nbsp; Building end-to-end data platforms with **Python, SQL, Spark, Kafka, and Apache Iceberg**
+- ⚙️ &nbsp; Building data platforms with **Python, SQL, Spark, Kafka, and Apache Iceberg**
 - 🔭 &nbsp; Currently developing **ChainBreaker**, a graph-driven real-time intrusion detection platform
 - ☁️ &nbsp; Interested in distributed systems, streaming infrastructure, and cloud-based data engineering
 - 📜 &nbsp; Microsoft Certified: Fabric Data Engineer Associate (DP-700)
@@ -65,36 +65,15 @@
 
 ---
 
-### 🧱 Data Engineering Architecture
+### ⚙️ What I Work With
 
-```text
-Sources
-  │
-  ├── Batch Data ───────────────┐
-  │                             │
-  └── Streaming / CDC ──────────┤
-                                ▼
-                         Apache Kafka
-                                │
-                                ▼
-                         Apache Spark
-                                │
-                                ▼
-                       Medallion Architecture
-                       ┌────────┼────────┐
-                       ▼        ▼        ▼
-                     Bronze   Silver    Gold
-                       │        │        │
-                       └────────┼────────┘
-                                ▼
-                       Iceberg / Data Lake
-                                │
-                                ▼
-                      Analytics & BI Layer
-
-               Apache Airflow → Orchestration
-               dbt             → Transformations
-```
+- **Data Ingestion:** Apache Kafka, Debezium, REST APIs
+- **Processing:** Apache Spark, PySpark, Spark Structured Streaming
+- **Storage:** Apache Iceberg, Azure Data Lake, Amazon S3
+- **Databases:** PostgreSQL, MySQL, MongoDB, Snowflake
+- **Orchestration:** Apache Airflow
+- **Transformation:** dbt
+- **Infrastructure:** Docker, AWS, Microsoft Azure
 
 ---
 
